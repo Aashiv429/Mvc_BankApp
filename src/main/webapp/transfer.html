@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transfer amount</title>
+<style>
+		body {
+
+			background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFoljHzOZKGX2o1_BTTwNo1iimYykDhiwOpnEhzz4c9Ls1FZhSbIsdFBaf0T3NKNy1nE&usqp=CAU') fixed;
+
+			background-size: cover;
+
+		}
+
+
+
+		*[role="form"] {
+
+			max-width: 530px;
+
+			padding: 15px;
+
+			margin: 0 auto;
+
+			border-radius: 0.3em;
+
+			background-color: #f2f2f2;
+
+		}
+
+
+
+		*[role="form"] h2 {
+
+			font-family: 'Open Sans', sans-serif;
+
+			font-size: 40px;
+
+			font-weight: 600;
+
+			color: #000000;
+
+			margin-top: 5%;
+
+			text-align: center;
+
+			text-transform: uppercase;
+
+			letter-spacing: 4px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<form class="form-horizontal" role="form" action="TransferAmount" method="post">
+
+			<h2>Transfer Amount</h2>
+			
+			<label>Customer Id</label><br>
+			<input type="text" name="cust_id"><br><br>
+			
+			<label>Bank Name</label><br>
+			<input type="text" name="bank_name"><br><br>
+			
+			<label>IFSC Code</label><br>
+			<input type="text" name="ifsc_code"><br><br>
+			
+			<label>Sender's AccNO</label><br>
+			<input type="text" name="s_accno"><br><br>
+			
+			<label>Receiver's IFSC Code</label><br>
+			<input type="text" name="r_ifsc"><br><br>
+			
+			<label>Receiver's AccNO</label><br>
+			<input type="text" name="r_accNo"><br><br>
+			
+			<label>Amount</label><br>
+			<input type="text" name="amount"><br><br>
+			
+			<label>PIN</label><br>
+			<input type="text" name="pin"><br><br>
+			
+			<button type="submit" class="btn btn-primary btn-block">Register</button>
+
+		</form>
+	</div>
+</body>
+</html>

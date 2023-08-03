@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<style>
+		body {
+
+			background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFoljHzOZKGX2o1_BTTwNo1iimYykDhiwOpnEhzz4c9Ls1FZhSbIsdFBaf0T3NKNy1nE&usqp=CAU') fixed;
+
+			background-size: cover;
+
+		}
+
+
+
+		*[role="form"] {
+
+			max-width: 530px;
+
+			padding: 15px;
+
+			margin: 0 auto;
+
+			border-radius: 0.3em;
+
+			background-color: #f2f2f2;
+
+		}
+
+
+
+		*[role="form"] h2 {
+
+			font-family: 'Open Sans', sans-serif;
+
+			font-size: 40px;
+
+			font-weight: 600;
+
+			color: #000000;
+
+			margin-top: 5%;
+
+			text-align: center;
+
+			text-transform: uppercase;
+
+			letter-spacing: 4px;
+
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+
+		<form class="form-horizontal" role="form" action="Register" method="post">
+
+			<h2>Registration</h2>
+			<label>Bank Id</label><br>
+			<input type="text" name="bank_id"><br><br>
+			<label>Bank Name</label><br>
+			<input type="text" name="bank_name"><br><br>
+			<label>IFSC Code</label><br>
+			<input type="text" name="ifsc_code"><br><br>
+			<label>AccNO</label><br>
+			<input type="text" name="accno"><br><br>
+			<label>PIN</label><br>
+			<input type="text" name="pin"><br><br>
+			<label>Customer Id</label><br>
+			<input type="text" name="cust_id"><br><br>
+			<label>Customer Name</label><br>
+			<input type="text" name="cust_name"><br><br>
+			<label>Balance</label><br>
+			<input type="text" name="balance"><br><br>
+			<label>Email</label><br>
+			<input type="text" name="email"><br><br>
+			<label>Phone</label><br>
+			<input type="text" name="phone"><br><br>
+			<button type="submit" class="btn btn-primary btn-block">Register</button>
+
+		</form>
+		<a href=welcome.html>Go to Home Page.</a>
+	</div>
+</body>
+
+</html>
